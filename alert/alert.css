@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
 @import url("../styles.css");
 :root{
-    --grey : #808080;
     --color-blue : #004085;
     --background-blue : #cce5ff;
     --border-blue : #b8daff;
@@ -37,68 +36,47 @@ html,body{
     width: fit-content;
     font-weight: light;
 }
-.alert-primary{
-    color: var(--color-green);
-    background-color: var(--light-yours-green);
-    border-color: var(--lighter-green);
-    border-radius: 0.3rem;
-    width: 70%;
+.box--model{
     border : 1px solid transparent;
     padding: 0.6rem 1rem;
-    margin: 1rem 0.5rem 0.5rem 0.5rem;
+    margin: 0.5rem;
+    border-radius: 0.3rem;
+    width: 70%;
+}
+.alert--primary{
+    color: var(--color-green);
+    background-color: var(--light-yours-green);
+    border-color: var(--border-green);
+    margin-top: 1rem;
 }
 
-.alert-secondary{
+.alert--secondary{
     color: var(--color-gray);
     background-color: var(--background-gray);
     border-color: var(--border-gray);
-    border-radius: 0.3rem;
-    width: 70%;
-    border : 1px solid transparent;
-    padding: 0.6rem 1rem;
-    margin: 0.5rem;
 }
 
-.alert-success{
+.alert--success{
     color: var(--color-green);
     background-color: var(--background-green);
     border-color: var(--border-green);
-    border-radius: 0.3rem;
-    width: 70%;
-    border : 1px solid transparent;
-    padding: 0.6rem 1rem;
-    margin: 0.5rem;
 }
 
-.alert-warning{
+.alert--warning{
     color: var(--color-yellow);
     background-color: var(--background-yellow);
     border-color: var(--border-yellow);
-    border-radius: 0.3rem;
-    width: 70%;
-    border : 1px solid transparent;
-    padding: 0.6rem 1rem;
-    margin: 0.5rem;
 }
 
-.alert-danger{
+.alert--danger{
     color: var(--color-maroon);
     background-color: var(--background-maroon);
     border-color: var(--border-maroon);
-    border-radius: 0.3rem;
-    width: 70%;
-    border : 1px solid transparent;
-    padding: 0.6rem 1rem;
-    margin: 0.5rem;
 }
 
-.alert-info {
+.alert--info {
     color: var(--color-dgreen);
     background-color: var(--background-dgreen);
     border-color: var(--border-dgreen);
-    border-radius: 0.3rem;
-    width: 70%;
-    border : 1px solid transparent;
-    padding: 0.6rem 1rem;
-    margin: 0.5rem 0.5rem 1rem 0.5rem;
+    margin-bottom: 1rem;
 }
