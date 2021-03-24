@@ -11,9 +11,8 @@ html,body{
     padding: 0.6rem 1rem;
     background-color: var(--primary-white);
     margin: 0.5rem;
-    /* border: 2px solid black; */
 }
-.badge__text{
+.badge--text{
     background-color: var(--yours-green);
     color: var(--primary-white);
     font-weight: bold;
@@ -21,14 +20,14 @@ html,body{
     padding: 0.1rem ;
 
 }
-.badge__avatar{
+.badge--avatar{
     box-sizing: border-box;
     width :max-content;
      position: relative;
     border: 2px solid transparent;
 
 }
-.badge__icons{
+.badge--icons{
     box-sizing: border-box;
     width: max-content;
     position: relative;
@@ -56,7 +55,6 @@ html,body{
     background-color: var(--yours-green);
     border-radius: 50%;
     border: 2px solid var(--yours-green);
-    
     display: flex;
     justify-content: center;
 }
