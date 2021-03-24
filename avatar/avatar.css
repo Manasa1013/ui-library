@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+@import url("../styles.css");
+html,body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.avatar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 20%;
+    justify-content: space-between;
+}
+.img{
+    border-radius: 50%;
+    width : 60px;
+    height: 60px;
+}
+.img--small{
+    border-radius: 50%;
+    width : 30px;
+    height: 30px;
+}
+.img--med{
+    border-radius: 50%;
+    width : 40px;
+    height: 40px;
+}
+

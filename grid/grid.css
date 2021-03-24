@@ -1,0 +1,30 @@
+@import url("../styles.css");
+@import url("../cards/card.css");
+
+.grid--container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-row-gap : 1rem;
+}
+.child-grid-1{
+    display: inline-block;
+    grid-area: child1;
+    margin: 1rem;
+    width: 300px;
+
+}
+.child-grid-2{
+    
+    display: inline-block;
+    grid-area: child2;
+    margin: 1rem;
+    width: 300px;
+}
+.child-grid-3{
+    
+    display: inline-block;
+    grid-area: child3;
+    margin: 1rem;
+    width: 300px;
+    
+}

@@ -1,0 +1,11 @@
+@import url("../styles.css");
+.text {
+    padding: 1rem;
+    border: 1px solid var(--light-grey1);
+    margin: 0.5rem;
+    color: var(--black);
+  }
+  .head-text{
+    font-size: 1.17rem;
+     font-weight: bolder;
+  }

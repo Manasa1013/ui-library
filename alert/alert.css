@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+@import url("../styles.css");
+:root{
+    --grey : #808080;
+    --color-blue : #004085;
+    --background-blue : #cce5ff;
+    --border-blue : #b8daff;
+    --color-gray : #383d41;
+    --background-gray : #e2e3e5;
+    --border-gray : #d6d8db;
+    --color-green: #155724;
+    --background-green: #d4edda;
+    --border-green: #c3e6cb;
+    --color-maroon: #721c24;
+    --background-maroon: #f8d7da;
+    --border-maroon: #f5c6cb;
+    --color-yellow: #856404;
+    --background-yellow: #fff3cd;
+    --border-yellow: #ffeeba;
+    --color-dgreen: #0c5460;
+    --background-dgreen: #d1ecf1;
+    --border-dgreen: #bee5eb;
+}
+
+
+
+html,body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.alert{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid transparent;
+    width: fit-content;
+    font-weight: light;
+}
+.alert-primary{
+    color: var(--color-green);
+    background-color: var(--light-yours-green);
+    border-color: var(--lighter-green);
+    border-radius: 0.3rem;
+    width: 70%;
+    border : 1px solid transparent;
+    padding: 0.6rem 1rem;
+    margin: 1rem 0.5rem 0.5rem 0.5rem;
+}
+
+.alert-secondary{
+    color: var(--color-gray);
+    background-color: var(--background-gray);
+    border-color: var(--border-gray);
+    border-radius: 0.3rem;
+    width: 70%;
+    border : 1px solid transparent;
+    padding: 0.6rem 1rem;
+    margin: 0.5rem;
+}
+
+.alert-success{
+    color: var(--color-green);
+    background-color: var(--background-green);
+    border-color: var(--border-green);
+    border-radius: 0.3rem;
+    width: 70%;
+    border : 1px solid transparent;
+    padding: 0.6rem 1rem;
+    margin: 0.5rem;
+}
+
+.alert-warning{
+    color: var(--color-yellow);
+    background-color: var(--background-yellow);
+    border-color: var(--border-yellow);
+    border-radius: 0.3rem;
+    width: 70%;
+    border : 1px solid transparent;
+    padding: 0.6rem 1rem;
+    margin: 0.5rem;
+}
+
+.alert-danger{
+    color: var(--color-maroon);
+    background-color: var(--background-maroon);
+    border-color: var(--border-maroon);
+    border-radius: 0.3rem;
+    width: 70%;
+    border : 1px solid transparent;
+    padding: 0.6rem 1rem;
+    margin: 0.5rem;
+}
+
+.alert-info {
+    color: var(--color-dgreen);
+    background-color: var(--background-dgreen);
+    border-color: var(--border-dgreen);
+    border-radius: 0.3rem;
+    width: 70%;
+    border : 1px solid transparent;
+    padding: 0.6rem 1rem;
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
+}
