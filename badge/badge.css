@@ -8,11 +8,17 @@ html,body{
 /* common styles for badges */
 .badge{
     border : 1px solid transparent;
+    max-width: fit-content;
     padding: 0.6rem 1rem;
     background-color: var(--primary-white);
     margin: 0.5rem;
 }
-
+.flex-container > h4 {
+    color : var(--black);
+}
+.flex-container > .component__container {
+    max-width: 50%;
+}
 .badge--text{
     background-color: var(--yours-green);
     color: var(--primary-white);
@@ -37,7 +43,7 @@ html,body{
 }
 
 .avatar-image{
-    border-radius: 4rem;
+    border-radius: 4.1rem;
     width: 3.9rem;
     height: 3.9rem;
     border: 2px solid var(--yours-green);
@@ -58,4 +64,5 @@ html,body{
     border: 2px solid var(--yours-green);
     display: flex;
     justify-content: center;
+    align-content: center;
 }
