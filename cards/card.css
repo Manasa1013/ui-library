@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+@import url('../badge/badge.css');
+@import url('../alert/alert.css');
+@import url('../button/button.css');
+@import url('../styles.css');
+
+.container--card {
+    padding: 1rem;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ }
+ .card{
+     display: flex;
+     flex-direction: column;
+    margin-bottom: 0.7rem;
+    width: fit-content;
+    font-weight: lighter;
+    }
+ 
+ .img--container{
+    position: relative;
+    display: block;
+    /* border: 2px solid black; */
+}
+p{
+    line-height: 1.5rem;
+}
+.img--container:hover .unselect{
+    opacity: 1;
+}
+ .product-img{
+    max-width: 100%;
+}
+.position {
+    position: absolute;
+    top : 10%;
+    left: 0%;
+}
+.unselect{ /* unselect button : example of absolute positioning*/
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 0%;
+    outline: none;
+    background-color : var(--image-other-green);
+    color: var(--hover-green);
+}
+.product-description{
+    display: inline-flex;
+    
+}
+.product-name{
+    flex-grow: 1;
+    font-weight: bold;
+}
+.product-info{
+    flex-shrink: 2;
+    font-weight: 400;
+    color: gray;
+    font-size: 1rem;
+}
+.price .strike-price {
+    flex-shrink: 2;
+    text-decoration: line-through;
+    color: var(--subtext-gray);
+    font-weight: 400;
+    
+}
+.price .discount{
+    flex-shrink: 3;
+    color : orange;
+    font-weight: large;
+}
+.card--onhover {
+    position: relative;
+  }
+  
+/* .text-overlay {
+    position: absolute;
+    top :1rem;
+    color: #fff;
+    padding: 1rem 1rem 0 1rem;
+    opacity: 0;
+  }
+.product-img:hover .text-overlay {
+  opacity: 1;
+} */
+
+.text-card{
+    padding: 1rem;
+    border-radius: 0.7rem;
+    display: block;
+    width: 50%;
+    justify-content: center;   
+}

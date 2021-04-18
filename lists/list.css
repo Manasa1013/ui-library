@@ -1,0 +1,49 @@
+@import url('../styles.css');
+@import url("../lists/list.css");
+
+.border {
+    border-radius: 0.1rem;
+    width: 500px;
+    max-width: 100%;
+    color: var(--image-black);
+    border : 1px solid var(--hover-black);
+    opacity: 0.7;
+    padding: 1rem;
+    background-color: var(--green-white);
+    margin: 0;
+    font-size: medium;
+}
+.border:hover{
+    opacity: 1;
+}
+.container-list--notif{
+    display: flex;
+    flex-direction: column;
+}
+.small{
+    font-size: small;
+}
+.align-left {
+    display: inline;
+    align-self: left;
+    text-align: left;
+}
+.flex {
+    display: flex;
+    /* justify-content: space-around; */
+}
+.align-right{
+    text-align: right;
+    align-self: right;
+}
+.width {
+    width: 400px;
+    max-width: 100%;
+    height:auto;
+}
+.flex-align{
+    align-self: center;
+}
+.active {
+    opacity: 1;
+}

@@ -1,0 +1,57 @@
+@import url("../styles.css");
+.input--container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    max-width: 100%;
+    align-self: center;
+
+}
+.container--size{
+    width: 500px;
+    max-width: 100%;
+    margin: auto ;
+    padding: 1rem;
+    
+}
+.column {
+    flex-direction: column;
+    
+}
+.row{
+    flex-direction: row;
+}
+.input{
+    padding: 0.7rem ;
+    border-radius: 0.5rem;
+    width: 380px;
+    max-width: 100%;
+    outline: none;
+}
+.input--container .input{
+    opacity: 0.8;
+}
+.input--container .button__icon{
+    opacity: 0.6;
+}
+.input--container .button__icon:hover,.input--container .input:hover{
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+}
+
+.input--container .button__icon{
+    padding: 0.7rem;
+    background-color: transparent;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+label{
+    padding: 0.7rem 0;
+}
+.element--first{
+    padding-top: 0.7rem;
+}
+.element--last{
+    padding-bottom: 0.7rem;
+}

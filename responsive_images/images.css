@@ -1,0 +1,21 @@
+@import url('../styles.css');
+
+.img--large {
+    width: 10rem;
+    height: 10rem;
+    max-width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+    justify-content: space-between;
+}
+.img--responsive{
+    max-width: 70%;
+    object-fit: cover;
+}
