@@ -50,7 +50,7 @@ html,body{
  .icon--container{
      display: flex;
      flex-wrap: wrap;
-     width: 70%;
+     max-width: 70%;
      justify-content: space-between;
  }
 .button__icon{
