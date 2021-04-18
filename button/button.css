@@ -5,12 +5,11 @@
 html,body{
     font-family: 'Montserrat', sans-serif;
 }
-
+/* common style for button component */
 .button{
     padding: 6px 12px;
     cursor: pointer;
     text-align: center;
-    outline: none;
     border-radius: 0.5rem;
     font-size: 1rem;
     text-align: center;

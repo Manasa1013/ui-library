@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
 @import url("../styles.css");
+/* color palette specific to alert */
 :root{
     --color-blue : #004085;
     --background-blue : #cce5ff;
@@ -26,7 +27,7 @@
 html,body{
     font-family: 'Montserrat', sans-serif;
 }
-
+/* common alert properties */
 .alert{
     margin: 0.5rem;
     padding: 0.5rem;
@@ -36,6 +37,7 @@ html,body{
     width: fit-content;
     font-weight: light;
 }
+/* common box model for alert */
 .box--model{
     border : 1px solid transparent;
     padding: 0.6rem 1rem;

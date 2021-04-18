@@ -35,7 +35,9 @@
 html{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    color: var(--yours-green);
+    color: var(--yours-green);    
+    outline-color: var(--yours-green);
+    outline-offset: 0px;
     scroll-behavior: smooth;
     /* background-color: var(--black); */
 }
